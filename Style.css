@@ -1,9 +1,39 @@
+body {
+    background-image: url(/Kepek/output.jpg);
+    background-size: cover;
+}
+
 h1 {
     text-align: center;
     padding-top: 50px;
+    font-size: 440%;
 }
 
 .dropdown {
     float: right;
     margin-right: 80px;
+}
+
+.floatright {
+    float: right;
+}
+
+.elvalaszto {
+    width: 70%;
+    border: 2px solid gray;
+    height: 3px;
+    margin-bottom: 20px;
+}
+
+#kiskoz {
+    margin-top: 100px;
+}
+
+h3 {
+    text-decoration: none;
+}
+
+.neerhozzapls {
+    margin-left: 30px;
+    margin-right: 30px;
 }
