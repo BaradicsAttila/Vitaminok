@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.dropdown {
+    float: right;
+    margin-right: 80px;
+}
