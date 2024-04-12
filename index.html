@@ -345,5 +345,26 @@
       <img src="/Kepek/K background.jpg" alt="k vitamin" class="kepekoldalt" id="halkeplejeb">
     </div>
   </div>
+  <div>
+    <button onclick="topFunction()" id="felcucc" title="Go to top"><img src="/Kepek/Up.png" alt="Up" width="40"></button>
+</div>
+<script>
+    let mybutton = document.getElementById("felcucc"); 
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
 </body>
 </html>
