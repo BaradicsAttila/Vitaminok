@@ -11,15 +11,15 @@ h1 {
 }
 
 .dropdown {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 80px;
+    position: fixed;
+    top: 100px;
+    right: 20px;
 }
 
-.floatright {
-    float: right;
-}
+#menukep {
+    width: 30px;
+    height: 30px;
+  }
 
 .elvalaszto {
     border: 2px solid gray;
@@ -69,8 +69,9 @@ h4 {
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
+    background-color: #555;
   }
   
   #felcucc:hover {
-    background-color: #555;
+    background-color: #444;
   }
