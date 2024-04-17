@@ -47,8 +47,13 @@ h4 {
     font-size: 110%;
 }
 
-#halkeplejeb {
+.halkeplejeb {
     margin-top: 300px;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .kisbetu {
